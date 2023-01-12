@@ -7,6 +7,7 @@ class MainClass:
     def getLocalNumber(self):
         return 14
 
+
 class MainClassTest(MainClass):
 
     def testGetClassNumber(self):
