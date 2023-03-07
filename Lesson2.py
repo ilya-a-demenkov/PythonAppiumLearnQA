@@ -1,6 +1,7 @@
 from appium import webdriver
 
 def driver():
+    test_run_driver
 
     capabilities = {
         "platformName": "Android",
@@ -13,6 +14,5 @@ def driver():
     }
 
     driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', capabilities)
-    yield driver
     print("First test run")
     driver.quit()
