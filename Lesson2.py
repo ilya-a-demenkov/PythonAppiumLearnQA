@@ -1,7 +1,6 @@
 from appium import webdriver
 
-def driver():
-    test_run_driver
+def test_run_driver():
 
     capabilities = {
         "platformName": "Android",
